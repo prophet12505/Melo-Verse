@@ -12,8 +12,8 @@ const User = require("../models/User");
 // });
 
 
-router.get("/home", (req, res) => {
-  res.render("home");
+router.get("/", (req, res) => {
+  res.json({ message: "Welcome to Meloverse" });
 });
 
 

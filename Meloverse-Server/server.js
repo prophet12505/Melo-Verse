@@ -7,8 +7,8 @@ const app=express()
 // app.set('view engine','hjs');
 const PORT=process.env.PORT || 5000;
 
-// const homeRoutes=require('./routes/home')
-// app.use('/',homeRoutes);
+const homeRoutes=require('./routes/home')
+app.use('/home',homeRoutes);
 
 
 
