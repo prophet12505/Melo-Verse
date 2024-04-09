@@ -91,7 +91,7 @@ input {
     border: none;
     border-radius: 5px;
     background-color: #6523b6;
-    color: #ffffff;
+    color: #e8e3e3;
     cursor: pointer;
 }
 
@@ -107,8 +107,7 @@ input {
 
 
 
-
-/* Sing up page */
+/* sign up */
 * {
     box-sizing: border-box;
 }
@@ -116,16 +115,16 @@ input {
 /* Full-width input fields */
 input[type=text], input[type=password] {
     width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
+    padding: 10px; /* Adjusted padding */
+    margin-bottom: 20px; /* Adjusted margin */
+    border-radius: 5px; /* Adjusted border radius */
     border: none;
-    background: #3d3d78; 
-    color: #ffffff; 
+    background: #3d3d78; /* Adjusted color */
+    color: #ffffff; /* Adjusted text color */
 }
 
 input[type=text]:focus, input[type=password]:focus {
-    background-color: #5f5fc4; 
+    background-color: #5f5fc4; /* Adjusted color */
     outline: none;
 }
 
@@ -134,15 +133,15 @@ hr {
     margin-bottom: 25px;
 }
 
-
+/* Set a style for all buttons */
 button {
-    background-color: #5f5fc4; 
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
     width: 100%;
+    padding: 10px; /* Adjusted padding */
+    border: none;
+    border-radius: 5px; /* Adjusted border radius */
+    background-color: #5f5fc4; /* Adjusted color */
+    color: #ffffff;
+    cursor: pointer;
     opacity: 0.9;
 }
 
@@ -150,31 +149,79 @@ button:hover {
     opacity: 1;
 }
 
-
+/* Extra styles for the cancel button */
 .cancelbtn {
-    padding: 14px 20px;
     background-color: #f44336;
 }
 
-
+/* Float cancel and signup buttons and add an equal width */
 .cancelbtn, .signupbtn {
     float: left;
     width: 50%;
 }
 
-
+/* Add padding to container elements */
 .container {
-    padding: 16px;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #292961;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+
+/* Adjusted styles for the login page */
+.title {
+    text-align: center;
+}
+
+.sign-in-form {
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.btn-login {
+    padding: 10px;
+}
+
+.social-login {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-google, .btn-facebook {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.terms {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.terms a {
+    color: #ffffff;
 }
 
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
-/* profilepa */
+/* profile pgae*/
 
 #profilepage {
   display: flex;
@@ -229,12 +276,15 @@ button:hover {
 
 #mainprofile_yourvideos {
   display: grid;
-  grid-template-columns: 3;
+  grid-template-columns: auto auto auto;
 }
 
 #mainprofile_yourvideos div {
-  w
+  width: 10vw;
+  height: 20vw;
+  margin: 10px;
   background-color: #292961;
+  border-radius: 20px;
 }
 
 #profilebody {
