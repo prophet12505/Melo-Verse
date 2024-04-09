@@ -1,15 +1,14 @@
 //--------------------Configure Express, routes----------------------
 const express = require("express");
 const path=require('path')
-
 const app=express()
-app.use(express.static(__dirname+'/public'));
-app.use('views',express.static(path.join(__dirname,'views')));
-app.set('view engine','hjs');
+// app.use(express.static(__dirname+'/public'));
+// app.use('views',express.static(path.join(__dirname,'views')));
+// app.set('view engine','hjs');
 const PORT=process.env.PORT || 5000;
 
-const indexRoutes=require('./routes/index')
-app.use('/',indexRoutes);
+// const homeRoutes=require('./routes/home')
+// app.use('/',homeRoutes);
 
 
 
