@@ -85,7 +85,7 @@ input {
     color: #ffffff;
 }
 
-.sign-up {
+.signup {
     width: 40%;
     padding: 5px;
     border: none;
@@ -95,7 +95,7 @@ input {
     cursor: pointer;
 }
 
-.btn-sign-up {
+.btn-signup {
     width: 100%;
     padding: 10px;
     border: none;
@@ -133,13 +133,13 @@ hr {
     margin-bottom: 25px;
 }
 
-/* Set a style for all buttons */
+
 button {
     width: 100%;
-    padding: 10px; /* Adjusted padding */
+    padding: 10px; 
     border: none;
-    border-radius: 5px; /* Adjusted border radius */
-    background-color: #5f5fc4; /* Adjusted color */
+    border-radius: 5px; 
+    background-color: #5f5fc4; 
     color: #ffffff;
     cursor: pointer;
     opacity: 0.9;
@@ -149,18 +149,18 @@ button:hover {
     opacity: 1;
 }
 
-/* Extra styles for the cancel button */
+
 .cancelbtn {
     background-color: #f44336;
 }
 
-/* Float cancel and signup buttons and add an equal width */
+
 .cancelbtn, .signupbtn {
     float: left;
     width: 50%;
 }
 
-/* Add padding to container elements */
+
 .container {
     max-width: 600px;
     margin: 100px auto;
@@ -170,14 +170,13 @@ button:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
+
 @media screen and (max-width: 300px) {
     .cancelbtn, .signupbtn {
         width: 100%;
     }
 }
 
-/* Adjusted styles for the login page */
 .title {
     text-align: center;
 }
@@ -221,7 +220,7 @@ label {
 
 
 
-/* profile pgae*/
+/* profile page*/
 
 #profilepage {
   display: flex;
@@ -279,9 +278,9 @@ label {
   grid-template-columns: auto auto auto;
 }
 
-#mainprofile_yourvideos div {
+#mainprofile_yourvideos .yourvideos {
   width: 10vw;
-  height: 20vw;
+  height: 10vw;
   margin: 10px;
   background-color: #292961;
   border-radius: 20px;
