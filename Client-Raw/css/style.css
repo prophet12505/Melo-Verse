@@ -103,6 +103,7 @@ input {
     background-color: #6523b6;
     color: #ffffff;
     cursor: pointer;
+    text-decoration: none;
 }
 
 
@@ -278,23 +279,29 @@ label {
   grid-template-columns: auto auto auto;
 }
 
-#mainprofile_yourvideos .yourvideos #videowrap {
+#mainprofile_yourvideos .yourvideos {
   width: 20vw;
   height: 15vw;
   margin: 10px;
   background-color: #292961;
   border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  
 }
 
-#mainprofile_yourvideos .yourvideos #thumbnail {
+#mainprofile_yourvideos .yourvideos #videowrap {
+  width: 15vw;
+  height: 12vw;
+  justify-content: center;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#mainprofile_yourvideos .yourvideos #videowrap #thumbnail {
   background-color: #5f5fc4;
   flex-basis: 80%;
 }
 
-#mainprofile_yourvideos .yourvideos #profile_videotitle {
+#mainprofile_yourvideos .yourvideos #videowrap #profile_videotitle {
   color: white;
   flex-basis: 20%;
 }
