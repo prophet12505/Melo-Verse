@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
     color: #ffffff;
     background-image: url("../img/purple1.jpg");
     background-size: cover;
@@ -60,10 +61,10 @@ input {
     cursor: pointer;
 }
 
-.social-login {
+/* .social-login {
     margin-top: 20px;
     text-align: center;
-}
+} */
 
 .btn-google, .btn-facebook {
     padding: 10px 20px;
@@ -199,7 +200,8 @@ button:hover {
 
 #mainprofile_userinfo {
   display:flex;
-  padding: 10rem 2rem;
+  padding: 1rem 2rem;
+  
 }
 
 #mainprofile_userinfo div {
@@ -225,8 +227,19 @@ button:hover {
   flex-direction: column;
 }
 
+#mainprofile_yourvideos {
+  display: grid;
+  grid-template-columns: 3;
+}
+
+#mainprofile_yourvideos div {
+  w
+  background-color: #292961;
+}
+
 #profilebody {
   background-color: aqua;
+  margin: 0px;
   /* temp ^^ */
 }
 
