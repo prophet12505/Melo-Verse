@@ -6,7 +6,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #1a1a2e;
     color: #ffffff;
-    background-image: url("img/image.png");
+    background-image: url("./img/loginbackground.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -56,7 +56,7 @@ input {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #5f5fc4;
+    background-color: #261046;
     color: #ffffff;
     cursor: pointer;
 }
@@ -71,7 +71,7 @@ input {
     margin: 0 10px;
     border: none;
     border-radius: 5px;
-    background-color: #db4437; /* Google red */
+    background-color: #db4437; 
     color: #ffffff;
     cursor: pointer;
 }
@@ -83,4 +83,78 @@ input {
 
 .terms a {
     color: #ffffff;
+}
+
+
+/* Sing up page */
+* {
+    box-sizing: border-box;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #261046; 
+    color: #ffffff; 
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #5f5fc4; 
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+
+button {
+    background-color: #5f5fc4; 
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
 }
