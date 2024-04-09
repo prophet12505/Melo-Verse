@@ -98,7 +98,7 @@ input[type=text], input[type=password] {
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
-    background: #261046; 
+    background: #3d3d78; 
     color: #ffffff; 
 }
 
@@ -150,6 +150,10 @@ button:hover {
     content: "";
     clear: both;
     display: table;
+}
+
+#profilepage {
+  display: flex
 }
 
 
