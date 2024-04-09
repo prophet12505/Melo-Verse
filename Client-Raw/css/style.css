@@ -87,6 +87,7 @@ input {
 
 .sign-up {
     width: 40%;
+    margin-top: 3px;
     padding: 5px;
     border: none;
     border-radius: 5px;
@@ -97,7 +98,6 @@ input {
 
 .btn-sign-up {
     width: 100%;
-    padding: 10px;
     border: none;
     border-radius: 5px;
     background-color: #6523b6;
@@ -228,19 +228,19 @@ label {
 }
 
 #profileleftsidebar {
-  flex-basis: 20%;
+  flex-basis: 25%;
   background-color: red;
 }
 
 #profilerightsidebar {
-  flex-basis: 20%;
+  flex-basis: 25%;
   background-color: red;
 }
 
 #mainprofile {
   display: flex;
   flex-direction: column;
-  flex-basis: 60%;
+  flex-basis: 50%;
   margin: 0rem 10rem;
 
 }
@@ -281,17 +281,18 @@ label {
 
 #mainprofile_yourvideos .yourvideos {
   width: 20vw;
-  height: 15vw;
+  height: 16vw;
   margin: 10px;
   background-color: #292961;
   border-radius: 20px;
 }
 
 #mainprofile_yourvideos .yourvideos #videowrap {
-  width: 15vw;
-  height: 12vw;
+  width: 18vw;
+  height: 15vw;
   justify-content: center;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -299,6 +300,7 @@ label {
 #mainprofile_yourvideos .yourvideos #videowrap #thumbnail {
   background-color: #5f5fc4;
   flex-basis: 80%;
+  border-radius: 10px;
 }
 
 #mainprofile_yourvideos .yourvideos #videowrap #profile_videotitle {
