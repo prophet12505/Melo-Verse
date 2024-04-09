@@ -85,7 +85,7 @@ input {
     color: #ffffff;
 }
 
-.signup {
+.sign-up {
     width: 40%;
     padding: 5px;
     border: none;
@@ -95,7 +95,7 @@ input {
     cursor: pointer;
 }
 
-.btn-signup {
+.btn-sign-up {
     width: 100%;
     padding: 10px;
     border: none;
@@ -227,19 +227,19 @@ label {
 }
 
 #profileleftsidebar {
-  flex-basis: 15%;
+  flex-basis: 20%;
   background-color: red;
 }
 
 #profilerightsidebar {
-  flex-basis: 15%;
+  flex-basis: 20%;
   background-color: red;
 }
 
 #mainprofile {
   display: flex;
   flex-direction: column;
-  flex-basis: 70%;
+  flex-basis: 60%;
   margin: 0rem 10rem;
 
 }
@@ -278,12 +278,25 @@ label {
   grid-template-columns: auto auto auto;
 }
 
-#mainprofile_yourvideos .yourvideos {
-  width: 10vw;
-  height: 10vw;
+#mainprofile_yourvideos .yourvideos #videowrap {
+  width: 20vw;
+  height: 15vw;
   margin: 10px;
   background-color: #292961;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#mainprofile_yourvideos .yourvideos #thumbnail {
+  background-color: #5f5fc4;
+  flex-basis: 80%;
+}
+
+#mainprofile_yourvideos .yourvideos #profile_videotitle {
+  color: white;
+  flex-basis: 20%;
 }
 
 #profilebody {
