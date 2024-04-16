@@ -413,6 +413,18 @@ input[type=text], input[type=password] {
     border-radius: 50px;
 }
 
+#details_thumbnail {
+    margin: 30px 20px;
+    height: 200px;
+    width: 500px;
+    background-color: #435897;
+}
+
+#videodetailsform {
+    margin: 40px 100px;
+    display: flex;
+}
+
 @media screen and (max-width: 300px) {
     .cancelbtn, .signupbtn {
         width: 100%;
