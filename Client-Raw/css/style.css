@@ -1,9 +1,35 @@
+/* colors */
 
-/* login css */
-#loginbody {
+.colourReference {
+
+color: #4B78AB; 
+color: #A6A8D1; 
+color: #3B4E85; 
+color: #190A38; 
+color: #684B8A; 
+
+color: #1a1a2e; /* background */ 
+color: #292961; /* secondary background for containers */  
+
+color: #56ABCF; /* accent */    
+color: #435897; /* secondary accent/buttons */
+
+color: #db4437; /* cancel, error */
+color: #aca7a7; /* nav text */
+color: #ffffff; /* nav text hover, regular body text*/
+  
+}
+
+
+
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+}
+
+/* login css */
+#loginbody {
     background-color: #1a1a2e;
     color: #ffffff;
     background-image: url("../img/purple1.jpg");
@@ -47,7 +73,7 @@ input {
     padding: 10px;
     border-radius: 5px;
     border: none;
-    background-color: #3d3d78;
+    background-color: #435897;
     color: #ffffff;
 }
 
@@ -112,118 +138,85 @@ input {
 * {
     box-sizing: border-box;
    
+   
+}
+body{
+    background-color: #1a1a2e;
 }
 .signup{
     background-color: rgb(26, 26, 46);
 }
 
-/* Full-width input fields */
+
 input[type=text], input[type=password] {
     width: 100%;
-    padding: 10px; /* Adjusted padding */
-    margin-bottom: 20px; /* Adjusted margin */
-    border-radius: 5px; /* Adjusted border radius */
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
     border: none;
-    background: #3d3d78; /* Adjusted color */
-    color: #ffffff; /* Adjusted text color */
-}
-
-input[type=text]:focus, input[type=password]:focus {
-    background-color: #5f5fc4; /* Adjusted color */
+    background: #f1f1f1;
+    color: black;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
     outline: none;
-}
-
-hr {
+    color: black;
+  }
+  
+  hr {
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
-}
-
-
-button {
-    width: 100%;
-    padding: 10px; 
+  }
+  
+ 
+  button {
+    background-color: #435897;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
     border: none;
-    border-radius: 5px; 
-    background-color: #5f5fc4; 
-    color: #ffffff;
+    border-radius: 30px;
     cursor: pointer;
+    width: 100%;
     opacity: 0.9;
-}
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
 
-button:hover {
-    opacity: 1;
-}
-
-
-.cancelbtn {
+  .cancelbtn {
+    padding: 14px 20px;
     background-color: #f44336;
-}
-
-
-.cancelbtn, .signupbtn {
+  }
+  
+ 
+  .cancelbtn, .signupbtn {
     float: left;
     width: 50%;
-}
+    
+  }
+  
 
-
-.container {
-    max-width: 600px;
-    margin: 100px auto;
-    padding: 30px;
-    background-color: #292961;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
-
-@media screen and (max-width: 300px) {
+  .container {
+    padding: 16px;
+    color: white;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+  @media screen and (max-width: 300px) {
     .cancelbtn, .signupbtn {
-        width: 100%;
+       width: 100%;
     }
-}
-
-.title {
-    text-align: center;
-}
-
-.sign-in-form {
-    margin-top: 30px;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.btn-login {
-    padding: 10px;
-}
-
-.social-login {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.btn-google, .btn-facebook {
-    padding: 10px 20px;
-    margin: 0 10px;
-    border-radius: 5px;
-}
-
-.terms {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.terms a {
-    color: #ffffff;
-}
-
-
+  }
 
 /* profile page*/
 
@@ -236,6 +229,28 @@ label {
   background-color: #292961;
   display: flex;
   flex-direction: column;
+  padding-top: 40px;
+}
+
+#profileleftsidebar ul {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#profileleftsidebar ul li {
+    padding: 10px 20px;
+    font-size: larger;
+}
+
+#profileleftsidebar ul li a {
+    color: #aca7a7;
+    text-decoration: none;
+}
+
+#profileleftsidebar ul li a:hover {
+    color: #ffffff;
 }
 
 #profilerightsidebar {
@@ -271,7 +286,7 @@ label {
 
 #userinfo_profilepic {
   flex-basis: 30%;
-  background-color: #5f5fc4;
+  background-color: #56ABCF;
   width: 20%;
   border-radius: 50%;
 }
@@ -287,6 +302,18 @@ label {
   display: flex;
   flex-direction: column;
   color: white;
+  line-height: 60%;
+  padding-top: 3%;
+}
+
+#userinfo_text h2 {
+    font-weight: 200;
+    color: #aca7a7;
+  }
+
+#userinfo_text button {
+    width: 40%;
+    font-size: large;
 }
 
 #mainprofile_yourvideos {
@@ -313,7 +340,7 @@ label {
 }
 
 #mainprofile_yourvideos .yourvideos #videowrap #thumbnail {
-  background-color: #5f5fc4;
+  background-color: #435897;
   flex-basis: 80%;
   border-radius: 10px;
 }
@@ -331,6 +358,59 @@ label {
 #profilelabels {
   text-align: center;
   color: white;
+}
+
+/* upload page styles */
+
+#uploadbody {
+    background-color: #1a1a2e;
+    margin: 0px;
+    text-align: center;
+}
+
+#uploadpage {
+    margin: 100px 300px;
+}
+
+#uploadbox {
+    background-color: #292961;
+    height: 400px;
+}
+
+#uploadbox h3 {
+    padding-top: 20%;
+    color: #ffffff;
+}
+
+#uploadbuttons {
+    display: flex;
+}
+
+#uploadbuttons .sides {
+    flex-basis: 30%;
+}
+
+#uploadbuttons .sides #upload_nextstep {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #56ABCF;
+    
+}
+
+#uploadbuttons .sides #upload_nextstep a {
+   text-decoration: none;
+    color: #ffffff; 
+}
+
+#orbrowsefiles {
+    color: #ffffff;
+    flex-basis: 70%;
+}
+
+#orbrowsefiles button {
+    width:50%;
+    border-radius: 50px;
 }
 
 @media screen and (max-width: 300px) {
