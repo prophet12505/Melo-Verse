@@ -234,11 +234,21 @@ label {
 #profileleftsidebar {
   flex-basis: 30%;
   background-color: #292961;
+  display: flex;
+  flex-direction: column;
 }
 
 #profilerightsidebar {
   flex-basis: 30%;
   background-color: #292961;
+  display: flex;
+  flex-direction: column;
+}
+
+#profileleftsidebar a {
+  margin: 1rem 2rem;
+  color: white;
+  text-decoration: none;
 }
 
 #mainprofile {
