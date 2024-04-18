@@ -7,17 +7,27 @@ body {
     background-size: cover;
     background-position: center;
     display: flex;
+    flex-direction: row;
+    gap: 1rem;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Sidebar */
 .sidebar {
-    position: fixed;
+    /* position: fixed;
     left: 0;
     top: 0;
-    bottom: 0;
-    width: 200px;
+    bottom: 0; */
+    /* width: 180px; */
+    height: 100vh;
     background-color: #292961;
     padding-top: 60px;
 }
@@ -46,11 +56,23 @@ body {
 }
 
 /* Navbar */
+nav{
+  display: block;
+}
 .navbar-nav .nav-link,
 .navbar-brand {
     color: #FFE789;
+    display: block;
 }
 
+.nav-link input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
 .navbar-brand {
     position: absolute;
     left: 15px;
@@ -58,6 +80,7 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
 }
+
 
 /* gallery */
 div.gallery {
