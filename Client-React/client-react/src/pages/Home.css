@@ -1,4 +1,4 @@
-body {
+.home-container {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -16,8 +16,8 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
 }
 
 /* Sidebar */
@@ -26,7 +26,7 @@ main {
     left: 0;
     top: 0;
     bottom: 0; */
-    /* width: 180px; */
+    width: 180px;
     height: 100vh;
     background-color: #292961;
     padding-top: 60px;
@@ -52,7 +52,8 @@ main {
 }
 
 .container {
-    margin-left: 200px; 
+    /* margin-left: 200px;  */
+    
 }
 
 /* Navbar */

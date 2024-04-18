@@ -4,8 +4,8 @@ import './Home.css';
 
 const Home = () => {
   return (
-    <>
-    <div>
+ 
+    <div className='home-container'>
   {/* Sidebar */}
   <div className="sidebar">
     <ul>
@@ -21,7 +21,7 @@ const Home = () => {
     </ul>
   </div>
   <main>
-    <div className="row">
+
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-dark col-md-12">
         {/* Navbar content */}
@@ -53,7 +53,7 @@ const Home = () => {
           </div>
         </div>
       </nav>
-    </div>
+ 
     {/* content */}
     <br />
     <div className="row">
@@ -109,7 +109,7 @@ const Home = () => {
   </main>
 </div>
 
-    </>
+
   )
 }
 
