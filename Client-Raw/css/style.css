@@ -1,35 +1,37 @@
 /* colors */
 
 .colourReference {
-
 color: #4B78AB; 
 color: #A6A8D1; 
 color: #3B4E85; 
 color: #190A38; 
 color: #684B8A; 
-
 color: #1a1a2e; /* background */ 
 color: #292961; /* secondary background for containers */  
-
 color: #56ABCF; /* accent */    
 color: #435897; /* secondary accent/buttons */
-
 color: #db4437; /* cancel, error */
 color: #aca7a7; /* nav text */
 color: #ffffff; /* nav text hover, regular body text*/
-  
 }
-
-
 
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: #ffffff;
+    background-image: url("../img/purple1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 /* login css */
-#loginbody {
+/* #loginbody {
     background-color: #1a1a2e;
     color: #ffffff;
     background-image: url("../img/purple1.jpg");
@@ -40,7 +42,7 @@ body {
     align-items: center;
     height: 100vh;
 
-}
+} */
 
 .container {
     max-width: 600px;
@@ -143,9 +145,10 @@ input {
 body{
     background-color: #1a1a2e;
 }
+/* }
 .signup{
     background-color: rgb(26, 26, 46);
-}
+} */
 
 
 input[type=text], input[type=password] {
@@ -445,3 +448,5 @@ input[type=text], input[type=password] {
         width: 100%;
     }
 }
+
+/* watch later page */

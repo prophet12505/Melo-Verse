@@ -1,0 +1,24 @@
+nav{
+    display: block;
+  }
+  .navbar-nav .nav-link,
+  .navbar-brand {
+      color: #FFE789;
+      display: block;
+  }
+  
+  .nav-link input[type=text] {
+      float: right;
+      padding: 6px;
+      border: none;
+      margin-top: 8px;
+      margin-right: 16px;
+      font-size: 17px;
+    }
+  .navbar-brand {
+      position: absolute;
+      left: 15px;
+      top: 5px;
+      font-size: 1.5rem;
+      font-weight: bold;
+  }

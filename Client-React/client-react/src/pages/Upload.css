@@ -1,0 +1,101 @@
+#uploadbody {
+    background-color: #1a1a2e;
+    margin: 0px;
+    text-align: center;
+}
+
+
+#uploadpage {
+    margin: 100px 300px;
+}
+
+#uploadbox {
+    background-color: #292961;
+    height: 400px;
+}
+
+#uploadbox h3 {
+    padding-top: 20%;
+    color: #ffffff;
+}
+
+#uploadbuttons {
+    display: flex;
+}
+
+#uploadbuttons .sides {
+    flex-basis: 30%;
+}
+
+#uploadbuttons .sides #upload_nextstep1, #uploadbuttons .sides #upload_nextstep2, #uploadbuttons .sides #upload_prevstep {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #56ABCF;
+    
+}
+
+#uploadbuttons .sides #upload_nextstep1 a, #uploadbuttons .sides #upload_nextstep2 a, #uploadbuttons .sides #upload_prevstep a  {
+   text-decoration: none;
+    color: #ffffff; 
+}
+
+#orbrowsefiles {
+    color: #ffffff;
+    flex-basis: 70%;
+}
+
+#orbrowsefiles button {
+    width:50%;
+    border-radius: 50px;
+}
+
+#details_thumbnail {
+    margin: 30px 20px;
+    height: 200px;
+    width: 300px;
+    background-color: #435897;
+}
+
+#videodetailsform {
+    margin: 40px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#details_top {
+    display: flex;
+
+}
+
+#details_top input {
+    width: 240px;
+    height: 40px;
+    vertical-align: middle;
+    margin-top: 100px;
+}
+
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+
+/* watch later page */
+
+#thumbnail {
+  display: flex;
+  justify-content: center;
+}
+
+#thumbnail video {
+  max-width: 100%;
+}
+
+
+#mainprofile_yourvideos .yourvideos #videowrap #thumbnail {
+  background-color: #435897;
+  border-radius: 10px;
+  flex-basis: 100%; /* Adjust this value to your preference */
+}

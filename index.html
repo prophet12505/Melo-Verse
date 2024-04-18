@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -71,9 +72,9 @@
         a:hover {
             opacity: 0.7;
         }
-
     </style>
 </head>
+
 <body>
     <nav>
         <ul>
@@ -84,11 +85,46 @@
         </ul>
     </nav>
     <h1>Web Connection Testing for Melo Verse</h1>
-    <p>Please go to /Client-Raw sub folder under vscode to continue your development. This page is for testing purposes only. You can preview and explore the relevant pages by clicking on the links above.</p>
-    <div >
+    <p>Please go to /Client-Raw sub folder under vscode to continue your development. This page is for testing purposes
+        only. You can preview and explore the relevant pages by clicking on the links above.</p>
+    <div>
         <h1>Sprint 1: HTML&CSS&JS frontend</h1>
-        <p>Our mission is to construct a website frontend using pure HTML&CSS&JS for MeloVerse so that it can be re-constructed using react.js in the next phase, feel free to explore and do whatever changes you like under the /Client-Raw development folder.</p>
+        <p>Our mission is to construct a website frontend using pure HTML&CSS&JS for MeloVerse so that it can be
+            re-constructed using react.js in the next phase, feel free to explore and do whatever changes you like under
+            the /Client-Raw development folder.</p>
     </div>
-    <a href="https://www.figma.com/file/NphWucodrIEB2TVipzuR4L/Untitled?type=design&node-id=0-1&mode=design&t=QwZIsw1EDESCtiQn-0" target="_blank">Website Wireframes</a>
+    <div>
+        <h1>Sprint 2: React.js frontend</h1>
+        <p>Our mission put the html&CSS&JS frontend into React.js, so that we can use it in the next phase. The development is under /Client-React folder</p>
+        <h2>Converting HTML, CSS, and JS to React.js</h2>
+
+        <h3>Convert HTML to React Components:</h3>
+        <ol>
+            <li>Copy your HTML code of a specific part, for example, yoru nav.</li>
+            <li>Create a new React component in the <code>components</code> folder, for example, <code>nav.jsx</code>.
+                You can type in "rafce" in VSCode to quickly generate one template component.</li>
+            <li>Paste the HTML code and adjust it to JSX format.</li>
+        </ol>
+        <h3>Move CSS to Component Files:</h3>
+        <ol>
+            <li>Copy your CSS styles related to that part (for example, your nav) from your original HTML&CSS&JS
+                frontend.</li>
+            <li>Create a CSS file for the component in the <code>components</code> folder (for example,
+                <code>nav.css</code>).</li>
+            <li>Paste the CSS styles into that file.</li>
+        </ol>
+
+        <h3>Refactor HTML in your component to JSX format:</h3>
+        <ul>
+            <li>Replace HTML attribute <code>class</code> with <code>className</code>.</li>
+            <li>Use camelCase for attribute names (<code>tabIndex</code> instead of <code>tabindex</code>).</li>
+            <li>Close self-closing tags with a slash (<code>&lt;img /&gt;</code>, <code>&lt;input /&gt;</code>).</li>
+        </ul>
+
+        <h3>Integrate with React Router:</h3>
+    </div>
+    <a href="https://www.figma.com/file/NphWucodrIEB2TVipzuR4L/Untitled?type=design&node-id=0-1&mode=design&t=QwZIsw1EDESCtiQn-0"
+        target="_blank">Website Wireframes</a>
 </body>
+
 </html>

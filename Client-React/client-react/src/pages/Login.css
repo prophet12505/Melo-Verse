@@ -1,0 +1,104 @@
+/* #loginbody {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    background-image: url("../img/purple1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+} */
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #292961;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    text-align: center;
+}
+
+.sign-in-form {
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #435897;
+    color: #ffffff;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #261046;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* .social-login {
+    margin-top: 20px;
+    text-align: center;
+} */
+
+.btn-google, .btn-facebook {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #db4437; 
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.terms {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.terms a {
+    color: #ffffff;
+}
+
+.sign-up {
+    width: 40%;
+    margin-top: 7px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6523b6;
+    color: #e8e3e3;
+    cursor: pointer;
+}
+
+.btn-sign-up {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #6523b6;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
