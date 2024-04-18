@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    justify-content: center;
+    justify-content: start;
     align-items: start;
 }
 
